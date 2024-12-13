@@ -10,14 +10,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@dotenvx/dotenvx": "^1.29.0",
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.1",
     "expo": "~52.0.17",
+    "expo-sqlite": "^15.0.3",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "watchman": "^1.0.0",
+    "zulu": "^0.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "drizzle-kit": "^0.30.0",
+    "tsx": "^4.19.2",
     "typescript": "^5.3.3"
   },
   "private": true
